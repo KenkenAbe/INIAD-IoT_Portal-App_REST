@@ -7,6 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		39711B1F1993DF9D2F39C301 /* Pods_INIAD_IoTUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4E5511C1B63EC54B6990B5E /* Pods_INIAD_IoTUITests.framework */; };
+		8E376BD9B1D72E5A4E2774B1 /* Pods_INIAD_IoT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 048077460273308793FE91A5 /* Pods_INIAD_IoT.framework */; };
+		960C955A229911110046317F /* doorlock.xib in Resources */ = {isa = PBXBuildFile; fileRef = 960C9559229911110046317F /* doorlock.xib */; };
+		960C955C22992DC80046317F /* light.xib in Resources */ = {isa = PBXBuildFile; fileRef = 960C955B22992DC80046317F /* light.xib */; };
+		960C955E22992E2E0046317F /* aircon.xib in Resources */ = {isa = PBXBuildFile; fileRef = 960C955D22992E2E0046317F /* aircon.xib */; };
+		960C9560229C04BF0046317F /* sensors.xib in Resources */ = {isa = PBXBuildFile; fileRef = 960C955F229C04BF0046317F /* sensors.xib */; };
+		96AAB9FB229629C900BBF008 /* RoomController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96AAB9FA229629C900BBF008 /* RoomController.swift */; };
+		96AAB9FD229661BD00BBF008 /* DeviceClasses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96AAB9FC229661BD00BBF008 /* DeviceClasses.swift */; };
+		96B41C8E22A2628E00D92082 /* roomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D98012229D0EC80090C355 /* roomCell.swift */; };
+		96B41C8F22A2628E00D92082 /* RoomController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96AAB9FA229629C900BBF008 /* RoomController.swift */; };
+		96B41C9022A2628E00D92082 /* DeviceClasses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96AAB9FC229661BD00BBF008 /* DeviceClasses.swift */; };
+		96B41C9122A2628E00D92082 /* AppConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F60C6C22943EBF008662B1 /* AppConfiguration.swift */; };
+		96B41C9222A2628E00D92082 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D038792294392D00124724 /* ViewController.swift */; };
+		96B41C9322A2628E00D92082 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D038772294392D00124724 /* AppDelegate.swift */; };
+		96B41C9522A2628E00D92082 /* Pods_INIAD_IoT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 048077460273308793FE91A5 /* Pods_INIAD_IoT.framework */; };
+		96B41C9722A2628E00D92082 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96D038802294392E00124724 /* LaunchScreen.storyboard */; };
+		96B41C9822A2628E00D92082 /* sensors.xib in Resources */ = {isa = PBXBuildFile; fileRef = 960C955F229C04BF0046317F /* sensors.xib */; };
+		96B41C9922A2628E00D92082 /* doorlock.xib in Resources */ = {isa = PBXBuildFile; fileRef = 960C9559229911110046317F /* doorlock.xib */; };
+		96B41C9A22A2628E00D92082 /* aircon.xib in Resources */ = {isa = PBXBuildFile; fileRef = 960C955D22992E2E0046317F /* aircon.xib */; };
+		96B41C9B22A2628E00D92082 /* light.xib in Resources */ = {isa = PBXBuildFile; fileRef = 960C955B22992DC80046317F /* light.xib */; };
+		96B41C9C22A2628E00D92082 /* env.json in Resources */ = {isa = PBXBuildFile; fileRef = 96F60C6E2294E90B008662B1 /* env.json */; };
+		96B41C9D22A2628E00D92082 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96D0387E2294392E00124724 /* Assets.xcassets */; };
+		96B41C9E22A2628E00D92082 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96D0387B2294392D00124724 /* Main.storyboard */; };
 		96D038782294392D00124724 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D038772294392D00124724 /* AppDelegate.swift */; };
 		96D0387A2294392D00124724 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D038792294392D00124724 /* ViewController.swift */; };
 		96D0387D2294392D00124724 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96D0387B2294392D00124724 /* Main.storyboard */; };
@@ -14,6 +37,10 @@
 		96D038822294392E00124724 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96D038802294392E00124724 /* LaunchScreen.storyboard */; };
 		96D0388D2294392E00124724 /* INIAD_IoTTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D0388C2294392E00124724 /* INIAD_IoTTests.swift */; };
 		96D038982294392E00124724 /* INIAD_IoTUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D038972294392E00124724 /* INIAD_IoTUITests.swift */; };
+		96D98013229D0EC80090C355 /* roomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D98012229D0EC80090C355 /* roomCell.swift */; };
+		96F60C6D22943EBF008662B1 /* AppConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F60C6C22943EBF008662B1 /* AppConfiguration.swift */; };
+		96F60C6F2294E90B008662B1 /* env.json in Resources */ = {isa = PBXBuildFile; fileRef = 96F60C6E2294E90B008662B1 /* env.json */; };
+		FB5B501874E80954485E1B30 /* Pods_INIAD_IoTTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D285C6CC29ED3A984DBD14B /* Pods_INIAD_IoTTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,7 +61,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		96D038742294392D00124724 /* INIAD IoT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "INIAD IoT.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		048077460273308793FE91A5 /* Pods_INIAD_IoT.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_INIAD_IoT.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D285C6CC29ED3A984DBD14B /* Pods_INIAD_IoTTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_INIAD_IoTTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F6CB995E305F98368A3EC21 /* Pods-INIAD IoT.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-INIAD IoT.debug.xcconfig"; path = "Target Support Files/Pods-INIAD IoT/Pods-INIAD IoT.debug.xcconfig"; sourceTree = "<group>"; };
+		31B31FF69BE48099F3807635 /* Pods-INIAD IoTTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-INIAD IoTTests.debug.xcconfig"; path = "Target Support Files/Pods-INIAD IoTTests/Pods-INIAD IoTTests.debug.xcconfig"; sourceTree = "<group>"; };
+		960C9559229911110046317F /* doorlock.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = doorlock.xib; sourceTree = "<group>"; };
+		960C955B22992DC80046317F /* light.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = light.xib; sourceTree = "<group>"; };
+		960C955D22992E2E0046317F /* aircon.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = aircon.xib; sourceTree = "<group>"; };
+		960C955F229C04BF0046317F /* sensors.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = sensors.xib; sourceTree = "<group>"; };
+		96AAB9FA229629C900BBF008 /* RoomController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomController.swift; sourceTree = "<group>"; };
+		96AAB9FC229661BD00BBF008 /* DeviceClasses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceClasses.swift; sourceTree = "<group>"; };
+		96B41CA322A2628E00D92082 /* INIAD_IoT_Development.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = INIAD_IoT_Development.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		96B41CA422A2628F00D92082 /* INIAD IoT copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "INIAD IoT copy-Info.plist"; path = "/Users/kentaro/dev/INIAD_IoT/INIAD IoT copy-Info.plist"; sourceTree = "<absolute>"; };
+		96D038742294392D00124724 /* INIAD_IoT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = INIAD_IoT.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		96D038772294392D00124724 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		96D038792294392D00124724 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		96D0387C2294392D00124724 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -47,13 +86,30 @@
 		96D038932294392E00124724 /* INIAD IoTUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "INIAD IoTUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		96D038972294392E00124724 /* INIAD_IoTUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = INIAD_IoTUITests.swift; sourceTree = "<group>"; };
 		96D038992294392E00124724 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96D98012229D0EC80090C355 /* roomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = roomCell.swift; sourceTree = "<group>"; };
+		96F60C6C22943EBF008662B1 /* AppConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConfiguration.swift; sourceTree = "<group>"; };
+		96F60C6E2294E90B008662B1 /* env.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = env.json; sourceTree = "<group>"; };
+		A56F41883971B9638D944DE6 /* Pods-INIAD IoTUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-INIAD IoTUITests.release.xcconfig"; path = "Target Support Files/Pods-INIAD IoTUITests/Pods-INIAD IoTUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A8814F386F7A99C1583A2BBA /* Pods-INIAD IoTUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-INIAD IoTUITests.debug.xcconfig"; path = "Target Support Files/Pods-INIAD IoTUITests/Pods-INIAD IoTUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B04F078784FA11774CFC19D5 /* Pods-INIAD IoTTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-INIAD IoTTests.release.xcconfig"; path = "Target Support Files/Pods-INIAD IoTTests/Pods-INIAD IoTTests.release.xcconfig"; sourceTree = "<group>"; };
+		CAED99DBF5BA4E8EBF2EC49A /* Pods-INIAD IoT.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-INIAD IoT.release.xcconfig"; path = "Target Support Files/Pods-INIAD IoT/Pods-INIAD IoT.release.xcconfig"; sourceTree = "<group>"; };
+		E4E5511C1B63EC54B6990B5E /* Pods_INIAD_IoTUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_INIAD_IoTUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		96B41C9422A2628E00D92082 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96B41C9522A2628E00D92082 /* Pods_INIAD_IoT.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		96D038712294392D00124724 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E376BD9B1D72E5A4E2774B1 /* Pods_INIAD_IoT.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +117,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB5B501874E80954485E1B30 /* Pods_INIAD_IoTTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +125,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				39711B1F1993DF9D2F39C301 /* Pods_INIAD_IoTUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6012239254B963A15281720E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				048077460273308793FE91A5 /* Pods_INIAD_IoT.framework */,
+				1D285C6CC29ED3A984DBD14B /* Pods_INIAD_IoTTests.framework */,
+				E4E5511C1B63EC54B6990B5E /* Pods_INIAD_IoTUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		96D0386B2294392D00124724 = {
 			isa = PBXGroup;
 			children = (
@@ -81,15 +149,19 @@
 				96D0388B2294392E00124724 /* INIAD IoTTests */,
 				96D038962294392E00124724 /* INIAD IoTUITests */,
 				96D038752294392D00124724 /* Products */,
+				E655402BE8CDC18DCAC89D8D /* Pods */,
+				6012239254B963A15281720E /* Frameworks */,
+				96B41CA422A2628F00D92082 /* INIAD IoT copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
 		96D038752294392D00124724 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				96D038742294392D00124724 /* INIAD IoT.app */,
+				96D038742294392D00124724 /* INIAD_IoT.app */,
 				96D038882294392E00124724 /* INIAD IoTTests.xctest */,
 				96D038932294392E00124724 /* INIAD IoTUITests.xctest */,
+				96B41CA322A2628E00D92082 /* INIAD_IoT_Development.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -99,10 +171,19 @@
 			children = (
 				96D038772294392D00124724 /* AppDelegate.swift */,
 				96D038792294392D00124724 /* ViewController.swift */,
+				96AAB9FA229629C900BBF008 /* RoomController.swift */,
 				96D0387B2294392D00124724 /* Main.storyboard */,
+				96D98012229D0EC80090C355 /* roomCell.swift */,
+				960C9559229911110046317F /* doorlock.xib */,
+				960C955B22992DC80046317F /* light.xib */,
+				960C955D22992E2E0046317F /* aircon.xib */,
+				960C955F229C04BF0046317F /* sensors.xib */,
 				96D0387E2294392E00124724 /* Assets.xcassets */,
 				96D038802294392E00124724 /* LaunchScreen.storyboard */,
 				96D038832294392E00124724 /* Info.plist */,
+				96F60C6C22943EBF008662B1 /* AppConfiguration.swift */,
+				96F60C6E2294E90B008662B1 /* env.json */,
+				96AAB9FC229661BD00BBF008 /* DeviceClasses.swift */,
 			);
 			path = "INIAD IoT";
 			sourceTree = "<group>";
@@ -125,30 +206,65 @@
 			path = "INIAD IoTUITests";
 			sourceTree = "<group>";
 		};
+		E655402BE8CDC18DCAC89D8D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2F6CB995E305F98368A3EC21 /* Pods-INIAD IoT.debug.xcconfig */,
+				CAED99DBF5BA4E8EBF2EC49A /* Pods-INIAD IoT.release.xcconfig */,
+				31B31FF69BE48099F3807635 /* Pods-INIAD IoTTests.debug.xcconfig */,
+				B04F078784FA11774CFC19D5 /* Pods-INIAD IoTTests.release.xcconfig */,
+				A8814F386F7A99C1583A2BBA /* Pods-INIAD IoTUITests.debug.xcconfig */,
+				A56F41883971B9638D944DE6 /* Pods-INIAD IoTUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		96D038732294392D00124724 /* INIAD IoT */ = {
+		96B41C8B22A2628E00D92082 /* INIAD_IoT_Development */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 96D0389C2294392E00124724 /* Build configuration list for PBXNativeTarget "INIAD IoT" */;
+			buildConfigurationList = 96B41CA022A2628E00D92082 /* Build configuration list for PBXNativeTarget "INIAD_IoT_Development" */;
 			buildPhases = (
-				96D038702294392D00124724 /* Sources */,
-				96D038712294392D00124724 /* Frameworks */,
-				96D038722294392D00124724 /* Resources */,
+				96B41C8C22A2628E00D92082 /* [CP] Check Pods Manifest.lock */,
+				96B41C8D22A2628E00D92082 /* Sources */,
+				96B41C9422A2628E00D92082 /* Frameworks */,
+				96B41C9622A2628E00D92082 /* Resources */,
+				96B41C9F22A2628E00D92082 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "INIAD IoT";
+			name = INIAD_IoT_Development;
 			productName = "INIAD IoT";
-			productReference = 96D038742294392D00124724 /* INIAD IoT.app */;
+			productReference = 96B41CA322A2628E00D92082 /* INIAD_IoT_Development.app */;
+			productType = "com.apple.product-type.application";
+		};
+		96D038732294392D00124724 /* INIAD_IoT */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96D0389C2294392E00124724 /* Build configuration list for PBXNativeTarget "INIAD_IoT" */;
+			buildPhases = (
+				6ABE1786720EB63656505582 /* [CP] Check Pods Manifest.lock */,
+				96D038702294392D00124724 /* Sources */,
+				96D038712294392D00124724 /* Frameworks */,
+				96D038722294392D00124724 /* Resources */,
+				A84A84AA8A0252EB317B338C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = INIAD_IoT;
+			productName = "INIAD IoT";
+			productReference = 96D038742294392D00124724 /* INIAD_IoT.app */;
 			productType = "com.apple.product-type.application";
 		};
 		96D038872294392E00124724 /* INIAD IoTTests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 96D0389F2294392E00124724 /* Build configuration list for PBXNativeTarget "INIAD IoTTests" */;
 			buildPhases = (
+				50D15F625B099C4F3B337AEA /* [CP] Check Pods Manifest.lock */,
 				96D038842294392E00124724 /* Sources */,
 				96D038852294392E00124724 /* Frameworks */,
 				96D038862294392E00124724 /* Resources */,
@@ -167,6 +283,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 96D038A22294392E00124724 /* Build configuration list for PBXNativeTarget "INIAD IoTUITests" */;
 			buildPhases = (
+				0403652951996A485214D466 /* [CP] Check Pods Manifest.lock */,
 				96D0388F2294392E00124724 /* Sources */,
 				96D038902294392E00124724 /* Frameworks */,
 				96D038912294392E00124724 /* Resources */,
@@ -217,19 +334,40 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				96D038732294392D00124724 /* INIAD IoT */,
 				96D038872294392E00124724 /* INIAD IoTTests */,
 				96D038922294392E00124724 /* INIAD IoTUITests */,
+				96D038732294392D00124724 /* INIAD_IoT */,
+				96B41C8B22A2628E00D92082 /* INIAD_IoT_Development */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		96B41C9622A2628E00D92082 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96B41C9722A2628E00D92082 /* LaunchScreen.storyboard in Resources */,
+				96B41C9822A2628E00D92082 /* sensors.xib in Resources */,
+				96B41C9922A2628E00D92082 /* doorlock.xib in Resources */,
+				96B41C9A22A2628E00D92082 /* aircon.xib in Resources */,
+				96B41C9B22A2628E00D92082 /* light.xib in Resources */,
+				96B41C9C22A2628E00D92082 /* env.json in Resources */,
+				96B41C9D22A2628E00D92082 /* Assets.xcassets in Resources */,
+				96B41C9E22A2628E00D92082 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		96D038722294392D00124724 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				96D038822294392E00124724 /* LaunchScreen.storyboard in Resources */,
+				960C9560229C04BF0046317F /* sensors.xib in Resources */,
+				960C955A229911110046317F /* doorlock.xib in Resources */,
+				960C955E22992E2E0046317F /* aircon.xib in Resources */,
+				960C955C22992DC80046317F /* light.xib in Resources */,
+				96F60C6F2294E90B008662B1 /* env.json in Resources */,
 				96D0387F2294392E00124724 /* Assets.xcassets in Resources */,
 				96D0387D2294392D00124724 /* Main.storyboard in Resources */,
 			);
@@ -251,11 +389,179 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0403652951996A485214D466 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-INIAD IoTUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		50D15F625B099C4F3B337AEA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-INIAD IoTTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6ABE1786720EB63656505582 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-INIAD IoT-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		96B41C8C22A2628E00D92082 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-INIAD IoT-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		96B41C9F22A2628E00D92082 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-INIAD IoT/Pods-INIAD IoT-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/KeychainAccess/KeychainAccess.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KeychainAccess.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-INIAD IoT/Pods-INIAD IoT-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A84A84AA8A0252EB317B338C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-INIAD IoT/Pods-INIAD IoT-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/KeychainAccess/KeychainAccess.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KeychainAccess.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-INIAD IoT/Pods-INIAD IoT-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		96B41C8D22A2628E00D92082 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96B41C8E22A2628E00D92082 /* roomCell.swift in Sources */,
+				96B41C8F22A2628E00D92082 /* RoomController.swift in Sources */,
+				96B41C9022A2628E00D92082 /* DeviceClasses.swift in Sources */,
+				96B41C9122A2628E00D92082 /* AppConfiguration.swift in Sources */,
+				96B41C9222A2628E00D92082 /* ViewController.swift in Sources */,
+				96B41C9322A2628E00D92082 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		96D038702294392D00124724 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96D98013229D0EC80090C355 /* roomCell.swift in Sources */,
+				96AAB9FB229629C900BBF008 /* RoomController.swift in Sources */,
+				96AAB9FD229661BD00BBF008 /* DeviceClasses.swift in Sources */,
+				96F60C6D22943EBF008662B1 /* AppConfiguration.swift in Sources */,
 				96D0387A2294392D00124724 /* ViewController.swift in Sources */,
 				96D038782294392D00124724 /* AppDelegate.swift in Sources */,
 			);
@@ -282,12 +588,12 @@
 /* Begin PBXTargetDependency section */
 		96D0388A2294392E00124724 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 96D038732294392D00124724 /* INIAD IoT */;
+			target = 96D038732294392D00124724 /* INIAD_IoT */;
 			targetProxy = 96D038892294392E00124724 /* PBXContainerItemProxy */;
 		};
 		96D038952294392E00124724 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 96D038732294392D00124724 /* INIAD IoT */;
+			target = 96D038732294392D00124724 /* INIAD_IoT */;
 			targetProxy = 96D038942294392E00124724 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -312,6 +618,60 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		96B41CA122A2628E00D92082 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F6CB995E305F98368A3EC21 /* Pods-INIAD IoT.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 9YN493UFZE;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+					DEBUG,
+				);
+				INFOPLIST_FILE = "INIAD IoT copy-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.iniad.app.INIAD-IoT-dev";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = INIADIoTDev_Development;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		96B41CA222A2628E00D92082 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CAED99DBF5BA4E8EBF2EC49A /* Pods-INIAD IoT.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 9YN493UFZE;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+					DEBUG,
+				);
+				INFOPLIST_FILE = "INIAD IoT copy-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.iniad.app.INIAD-IoT-dev";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = INIADIoTDev_AdHoc;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		96D0389A2294392E00124724 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -430,17 +790,26 @@
 		};
 		96D0389D2294392E00124724 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F6CB995E305F98368A3EC21 /* Pods-INIAD IoT.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 9YN493UFZE;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+				);
 				INFOPLIST_FILE = "INIAD IoT/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				OTHER_SWIFT_FLAGS = "$(inherited) -D COCOAPODS -D RELEASE";
 				PRODUCT_BUNDLE_IDENTIFIER = "dev.iniad.app.INIAD-IoT";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = INIADIoT_Development;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -448,17 +817,26 @@
 		};
 		96D0389E2294392E00124724 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CAED99DBF5BA4E8EBF2EC49A /* Pods-INIAD IoT.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 9YN493UFZE;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+				);
 				INFOPLIST_FILE = "INIAD IoT/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				OTHER_SWIFT_FLAGS = "$(inherited) -D COCOAPODS -D RELEASE";
 				PRODUCT_BUNDLE_IDENTIFIER = "dev.iniad.app.INIAD-IoT";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = INIADIoT_AdHoc;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -466,6 +844,7 @@
 		};
 		96D038A02294392E00124724 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31B31FF69BE48099F3807635 /* Pods-INIAD IoTTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -487,6 +866,7 @@
 		};
 		96D038A12294392E00124724 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B04F078784FA11774CFC19D5 /* Pods-INIAD IoTTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +888,7 @@
 		};
 		96D038A32294392E00124724 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8814F386F7A99C1583A2BBA /* Pods-INIAD IoTUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -528,6 +909,7 @@
 		};
 		96D038A42294392E00124724 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A56F41883971B9638D944DE6 /* Pods-INIAD IoTUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -549,6 +931,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		96B41CA022A2628E00D92082 /* Build configuration list for PBXNativeTarget "INIAD_IoT_Development" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96B41CA122A2628E00D92082 /* Debug */,
+				96B41CA222A2628E00D92082 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		96D0386F2294392D00124724 /* Build configuration list for PBXProject "INIAD IoT" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -558,7 +949,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		96D0389C2294392E00124724 /* Build configuration list for PBXNativeTarget "INIAD IoT" */ = {
+		96D0389C2294392E00124724 /* Build configuration list for PBXNativeTarget "INIAD_IoT" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				96D0389D2294392E00124724 /* Debug */,
