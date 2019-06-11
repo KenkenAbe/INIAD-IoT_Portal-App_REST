@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina5_9" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" restorationIdentifier="aircon" id="iN0-l3-epB" customClass="aircon" customModule="INIAD_IoT" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="330"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <segmentedControl opaque="NO" contentMode="scaleToFill" restorationIdentifier="mode_switch" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="vlq-Ai-nAW">
+                    <rect key="frame" x="33" y="100" width="293" height="28"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="293" id="EYR-Qz-ELT"/>
+                        <constraint firstAttribute="height" constant="27" id="d5s-YX-Ops"/>
+                    </constraints>
+                    <segments>
+                        <segment title="自動"/>
+                        <segment title="送風"/>
+                        <segment title="冷房"/>
+                        <segment title="ドライ"/>
+                        <segment title="暖房"/>
+                    </segments>
+                    <color key="tintColor" red="1" green="0.75693084489999996" blue="0.25004291299999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    <connections>
+                        <action selector="set_mode:" destination="iN0-l3-epB" eventType="valueChanged" id="2tu-La-hsx"/>
+                    </connections>
+                </segmentedControl>
+                <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" restorationIdentifier="on_switch" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="WDe-Xb-nrf">
+                    <rect key="frame" x="302" y="56" width="49" height="31"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="47" id="Rq7-LL-jDN"/>
+                        <constraint firstAttribute="height" constant="31" id="gcK-so-aEQ"/>
+                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="31" id="jFH-QV-mIO"/>
+                    </constraints>
+                    <color key="onTintColor" red="1" green="0.75693084489999996" blue="0.25004291299999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    <connections>
+                        <action selector="set_on:" destination="iN0-l3-epB" eventType="valueChanged" id="J3r-YJ-DNX"/>
+                    </connections>
+                </switch>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="動作" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vCc-dl-tRE">
+                    <rect key="frame" x="259" y="61" width="35" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="35" id="MRT-wa-LGZ"/>
+                        <constraint firstAttribute="height" constant="21" id="WYx-5l-KOV"/>
+                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="21" id="wR8-cD-9EB"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" restorationIdentifier="freshup_switch" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="z2Y-oV-Fcn">
+                    <rect key="frame" x="294" y="182" width="51" height="31"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="49" id="VFd-ER-ZXT"/>
+                        <constraint firstAttribute="height" constant="31" id="Vyj-ej-tbb"/>
+                    </constraints>
+                    <color key="onTintColor" red="1" green="0.75693084489999996" blue="0.25004291299999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                </switch>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="フレッシュアップ" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e8u-I6-p80">
+                    <rect key="frame" x="171" y="189" width="115" height="17"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="115" id="8dr-jN-a8E"/>
+                        <constraint firstAttribute="height" constant="17" id="x3n-g9-UmU"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <segmentedControl opaque="NO" contentMode="scaleToFill" restorationIdentifier="wind_switch" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="GYO-t8-nhM">
+                    <rect key="frame" x="33" y="146" width="293" height="29"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="28" id="1A8-rt-yuh"/>
+                        <constraint firstAttribute="width" constant="293" id="Tzq-zY-ia1"/>
+                    </constraints>
+                    <segments>
+                        <segment title="自動"/>
+                        <segment title="強"/>
+                        <segment title="弱"/>
+                    </segments>
+                    <color key="tintColor" red="1" green="0.75693084489999996" blue="0.25004291299999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    <connections>
+                        <action selector="set_wind:" destination="iN0-l3-epB" eventType="valueChanged" id="mEQ-mG-DDt"/>
+                    </connections>
+                </segmentedControl>
+                <slider opaque="NO" contentMode="scaleToFill" restorationIdentifier="temperature_bar" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="LCS-XS-03U">
+                    <rect key="frame" x="39" y="267" width="297" height="31"/>
+                    <color key="tintColor" red="1" green="0.75693084489999996" blue="0.25004291299999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="Zv7-QM-eKM"/>
+                        <constraint firstAttribute="width" constant="293" id="ohE-YH-sFa"/>
+                    </constraints>
+                    <connections>
+                        <action selector="changed_temperature:" destination="iN0-l3-epB" eventType="valueChanged" id="dQW-bc-p9j"/>
+                        <action selector="end_change_temperature:" destination="iN0-l3-epB" eventType="touchUpOutside" id="oRs-Tc-Rjo"/>
+                        <action selector="end_change_temperature:" destination="iN0-l3-epB" eventType="touchUpInside" id="tCb-p7-whW"/>
+                    </connections>
+                </slider>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" restorationIdentifier="item_name" text="空調１" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tzl-PP-6oh">
+                    <rect key="frame" x="25" y="23" width="269" height="23"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="23" id="Eyc-ww-dQ6"/>
+                        <constraint firstAttribute="width" constant="269" id="aEy-gX-6PU"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" restorationIdentifier="temp_text" text="25 ℃" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="idg-h7-deU">
+                    <rect key="frame" x="153" y="238" width="185" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="185" id="4eN-gB-YZM"/>
+                        <constraint firstAttribute="height" constant="21" id="Fvu-br-LuJ"/>
+                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="21" id="i3W-nV-mGT"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" restorationIdentifier="process_indicator" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="GrV-Nj-2vf">
+                    <rect key="frame" x="339" y="24" width="20" height="20"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="color" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </activityIndicatorView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="vlq-Ai-nAW" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="33" id="1j1-uN-lwo"/>
+                <constraint firstAttribute="bottom" secondItem="vlq-Ai-nAW" secondAttribute="bottom" constant="203" id="2BX-Zw-h6U"/>
+                <constraint firstItem="WDe-Xb-nrf" firstAttribute="leading" secondItem="vCc-dl-tRE" secondAttribute="trailing" constant="8" id="2J5-QH-IuN"/>
+                <constraint firstItem="tzl-PP-6oh" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="23" id="3R7-KW-g6Q"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="idg-h7-deU" secondAttribute="trailing" constant="37" id="59o-Qd-U0B"/>
+                <constraint firstItem="tzl-PP-6oh" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="25" id="6rT-Za-wNM"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="LCS-XS-03U" secondAttribute="trailing" constant="41" id="C0m-mN-SqO"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="GYO-t8-nhM" secondAttribute="trailing" constant="49" id="GV6-RW-Oza"/>
+                <constraint firstItem="vlq-Ai-nAW" firstAttribute="top" secondItem="vCc-dl-tRE" secondAttribute="bottom" constant="18" id="ISx-xj-kwD"/>
+                <constraint firstItem="e8u-I6-p80" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="189" id="IsO-vd-mrS"/>
+                <constraint firstItem="GYO-t8-nhM" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="33" id="Jxc-eW-D7R"/>
+                <constraint firstItem="GYO-t8-nhM" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="146" id="Jzr-La-Yrw"/>
+                <constraint firstItem="vCc-dl-tRE" firstAttribute="top" secondItem="tzl-PP-6oh" secondAttribute="bottom" constant="15" id="OcM-0x-6Eg"/>
+                <constraint firstItem="vlq-Ai-nAW" firstAttribute="top" secondItem="WDe-Xb-nrf" secondAttribute="bottom" constant="13" id="RQh-uH-TdN"/>
+                <constraint firstItem="z2Y-oV-Fcn" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="182" id="RfY-fD-xH9"/>
+                <constraint firstItem="z2Y-oV-Fcn" firstAttribute="leading" secondItem="e8u-I6-p80" secondAttribute="trailing" constant="8" id="SiY-Hz-HsP"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="vlq-Ai-nAW" secondAttribute="trailing" constant="49" id="X86-BI-coL"/>
+                <constraint firstAttribute="trailing" secondItem="tzl-PP-6oh" secondAttribute="trailing" constant="81" id="Yia-Ly-XtF"/>
+                <constraint firstAttribute="bottom" secondItem="LCS-XS-03U" secondAttribute="bottom" constant="33" id="ZAt-wS-xit"/>
+                <constraint firstAttribute="bottom" secondItem="tzl-PP-6oh" secondAttribute="bottom" constant="284" id="ZXB-JN-KS4"/>
+                <constraint firstAttribute="bottom" secondItem="e8u-I6-p80" secondAttribute="bottom" constant="124" id="api-xe-2aK"/>
+                <constraint firstItem="WDe-Xb-nrf" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="56" id="blz-YP-YdU"/>
+                <constraint firstItem="LCS-XS-03U" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="41" id="dsv-u7-grZ"/>
+                <constraint firstItem="idg-h7-deU" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="238" id="e6p-e4-VQK"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="z2Y-oV-Fcn" secondAttribute="trailing" constant="32" id="fK4-J4-AKG"/>
+                <constraint firstItem="LCS-XS-03U" firstAttribute="top" secondItem="idg-h7-deU" secondAttribute="bottom" constant="8" id="g10-zG-k0N"/>
+                <constraint firstItem="z2Y-oV-Fcn" firstAttribute="top" secondItem="GYO-t8-nhM" secondAttribute="bottom" constant="8" id="hvM-rz-jVi"/>
+                <constraint firstItem="LCS-XS-03U" firstAttribute="top" secondItem="idg-h7-deU" secondAttribute="bottom" constant="8" id="lrU-9S-iIq"/>
+                <constraint firstItem="vCc-dl-tRE" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="259" id="nLB-By-ENx"/>
+                <constraint firstItem="LCS-XS-03U" firstAttribute="top" secondItem="idg-h7-deU" secondAttribute="bottom" constant="8" id="pgv-dV-odo"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="WDe-Xb-nrf" secondAttribute="trailing" constant="26" id="tB2-RH-Fof"/>
+                <constraint firstItem="WDe-Xb-nrf" firstAttribute="leading" secondItem="vCc-dl-tRE" secondAttribute="trailing" constant="8" id="vMQ-Oo-csn"/>
+                <constraint firstItem="vlq-Ai-nAW" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="100" id="wQR-Es-8Ws"/>
+                <constraint firstAttribute="bottom" secondItem="z2Y-oV-Fcn" secondAttribute="bottom" constant="117" id="xyZ-sl-FpM"/>
+            </constraints>
+            <nil key="simulatedTopBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="freshup_switch" destination="z2Y-oV-Fcn" id="D8g-q6-fpR"/>
+                <outlet property="item_name" destination="tzl-PP-6oh" id="rIG-Mt-iCf"/>
+                <outlet property="mode_switch" destination="vlq-Ai-nAW" id="ekY-w0-eco"/>
+                <outlet property="on_switch" destination="WDe-Xb-nrf" id="Ebj-rI-wWg"/>
+                <outlet property="process_indicator" destination="GrV-Nj-2vf" id="Isg-3r-tS0"/>
+                <outlet property="temperature_bar" destination="LCS-XS-03U" id="hI7-ED-1am"/>
+                <outlet property="temperature_text" destination="idg-h7-deU" id="0cO-ZA-pEw"/>
+                <outlet property="wind_switch" destination="GYO-t8-nhM" id="jCj-x6-LpW"/>
+            </connections>
+            <point key="canvasLocation" x="53.600000000000001" y="39.90147783251232"/>
+        </view>
+    </objects>
+</document>
